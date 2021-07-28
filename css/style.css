@@ -192,8 +192,7 @@ a {text-decoration: none; margin: 0;}
 
 .services__item .btn {padding: 11px 22px; color: inherit; border: 2px solid #212121;}
   
-
-
+/*========<' works '>========*/ 
 
 .works {
     margin-top: 125px;
@@ -283,4 +282,78 @@ a {text-decoration: none; margin: 0;}
     color: #fff;
 }
 .works__btn {margin: 125px auto; text-align: center;}
+ 
+/*========<' price pla '>========*/ 
+
+.price__plan {
+    width: 100%;
+
+    padding: 125px 0;
+    background-color: #f0f1f1;
+}
+
+.price__inner {
+    width: 100%;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price__item {
+    width: 100%;
+    max-width: 360px;
+    margin: 15px;
+    text-align: center;
+    background: #fff;
+
+    transition: box-shadow .2s linear;
+}
+
+.price__item:hover {
+    box-shadow: 20px 20px 20px rgba(0,0,0,.5); /* Параметры тени */
+}
+
+.price__header {
+    padding: 50px;
+    background: #3949ab;
+    margin-bottom: 60px;
+    color: #fff;
+}
+
+.price__title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.price__subtitle .price {font-size: 2rem;}
     
+.price__services {margin-bottom: 75px;}
+    
+.price__service {
+    font-size: 1.133rem;
+    color: #3b3b3b;
+}
+
+.price__service::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 150px;
+    margin: 5px auto 20px;
+
+    background: #3b3b3b;
+}
+
+.price__item .btn {
+    position: relative;
+    top: 25px;
+    border: 2px solid #212121;
+    color: #212121;
+    padding: 10px 40px;
+}
+.price__item .btn:hover {
+    border: 2px solid #fff;
+    background-color: #00897b;
+    color: #fff;
+}
